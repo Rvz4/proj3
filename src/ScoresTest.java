@@ -175,7 +175,7 @@ public class ScoresTest {
     @Test public void PosMaxTest() { //Tests a string with positive numbers
         String biggest = "27 29 31 32";
         Scores scores = new Scores(biggest);
-        assertEquals(31, scores.getMax());
+        assertEquals(32, scores.getMax());
     }
 
     @Test public void MixedMaxTest() { //Tests a string with positive and negative numbers
